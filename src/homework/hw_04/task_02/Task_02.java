@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Task_02 {
     public static void main(String[] args) {
         System.out.println("Введите число, массив с какой длинной стороный Вы хотите");
-        int number = 0;
+        int number;
         while (true) {
             Scanner input = new Scanner(System.in);
             if (input.hasNextInt()) {
