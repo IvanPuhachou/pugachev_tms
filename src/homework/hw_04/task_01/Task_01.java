@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Task_01 {
     public static void main(String[] args) {
         System.out.println("Введите число, массив с какой длинной стороный Вы хотите");
-        int number = 0;
+        int number;
         while (true) {
             Scanner input = new Scanner(System.in);
             if (input.hasNextInt()) {
@@ -31,7 +31,7 @@ public class Task_01 {
         int[][] array = new int[number][number]; // поскольку в условиях задачи массив в виде квадрата
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array.length; j++) {
-                array[i][j] = (int) (Math.random() * 50);
+                array[i][j] = (int) (Math.random() * 51);
                 System.out.print(array[i][j] + " ");
                 if (array[i][j] < 10) {
                     System.out.print(" "); // чтобы матрицу не перекашивало при наличии в строках не одинакового числа однозначнх и двузначных чисел
