@@ -7,7 +7,6 @@ public class Task_01 {
     public static void main(String[] args) {
         int number = (int) (Math.random() * 1000000 - Math.random() * 1000000);
         String positiveOrNot;
-        
         if (number >= 0) {
             positiveOrNot = "положительное";
         } else positiveOrNot = "отрицательное";
