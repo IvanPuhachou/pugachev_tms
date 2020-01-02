@@ -18,7 +18,7 @@ public class Task_07 {
         int lastIndexMax = 0;
         for (int i = 1; i < array.length; i++) {
             if (array[i] >= array [lastIndexMax]) {
-                lastIndexMax = i; // логично, что индекс указан с учетом особенностей массивов в java - перовому элементу соответствует индекс 0
+                lastIndexMax = i; // логично, что индекс указан с учетом особенностей массивов в java - первому элементу соответствует индекс 0
             }
         }
         System.out.println("Индекс последнего вхождения максимального значения в массиве равен " + lastIndexMax);
