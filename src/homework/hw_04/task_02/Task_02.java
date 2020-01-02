@@ -30,7 +30,7 @@ public class Task_02 {
         int[][] array = new int[number][number];
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array.length; j++) {
-                array[i][j] = (int) (Math.random() * 50);
+                array[i][j] = (int) (Math.random() * 51);
                 System.out.print(array[i][j] + " ");
                 if (array[i][j] < 10) {
                     System.out.print(" ");  // чтобы матрицу не перекашивало при наличии в строках не одинакового числа однозначнх и двузначных чисел
