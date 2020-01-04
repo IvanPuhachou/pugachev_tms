@@ -1,0 +1,43 @@
+Task 1
+Есть массив с именами. Нужно сделать из него 1 общую строку, разделив имена пробелом
+
+Task 2
+Игра в слова. Есть строка “engineering”. Нужно выделить подстроку так, чтобы получилось два слова “engine” и “ring”.
+
+Task 3
+Есть массив слов. Нужно отфильтровать его так, чтобы в выходном массиве оказались слова, которые начинаются с буквы “W”/”w”.
+
+Task 4
+Есть слово “alucard”. Нужно изменить порядок букв на обратный.
+
+Task 5
+Есть строка “Green. red. blue. yellow”. Необходимо заменить все точки на запятые
+
+Task 6
+Есть строка “While major gameplay components are already in place and functioning, players help is
+needed to add some of the smaller features and content. Of course polishing the overall experience
+is important at the same time. Game has been extensively tested in closed group, but it is always
+important to hear fresh suggestions from larger crowd that come from various gaming backgrounds.
+ Plan is to make the game as good as possible but without compromising the core idea.”
+
+Нужно узнать содержит ли текст слова “alert”, “add”, “good”, “plan” и какое кол-во.
+
+Task 7
+Написать benchmark тест, который бы измерял скорость работы String, StringBuilder и StringBuffer.
+
+Task 8
+Есть склад авто и выяснилось, что всем присвоили неверные маркировки двигателя. Необходимо все 1.4 литра
+двигатели заменить на 2.0Т, а все 1.8, на 1.8Т.
+
+Task 9
+Есть массив строк, вывести на экран все строки, длина которых больше 5 символов
+
+Task 10
+Ввести 2 слова при помощи Scanner, состоящие из четного числа букв. Получить слово состоящее из первой половины
+первого слова и второй половины второго слова.
+
+Task 11
+Ввести n строк с консоли, найти самую короткую и самую длинную строки. Вывести найденные строки и их длину.
+
+Task 12
+Ввести n строк с консоли. Упорядочить и вывести строки в порядке возрастания (убывания) значений их длины.
