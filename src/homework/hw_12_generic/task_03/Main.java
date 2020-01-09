@@ -7,11 +7,11 @@ package homework.hw_12_generic.task_03;
 
 public class Main {
     public static void main(String[] args) {
-      ClassName<Integer> firstObject = new ClassName<>(15);
-      ClassName<String> secondObject = new ClassName<>("value");
+        ClassName<Integer> firstObject = new ClassName<>(15);
+        ClassName<String> secondObject = new ClassName<>("value");
 
-      firstObject.showClassName();
-      secondObject.showClassName();
+        firstObject.showClassName();
+        secondObject.showClassName();
 
 
     }
