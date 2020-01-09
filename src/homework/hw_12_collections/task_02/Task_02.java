@@ -26,7 +26,11 @@ public class Task_02 {
 
     public static List randomFillArray(List<Integer> list, int minValue, int maxValue, int lastIndex) {
         for (int i = 0; i < lastIndex; i++) {
-            list.add((int) (Math.random() * (maxValue + 1 - minValue)) + minValue);
+            if (maxValue >= 0) {
+                list.add((int) (Math.random() * (maxValue + 1 - minValue)) + minValue);
+            } else if (maxValue < 0) {
+                list.add((int) (Math.random() * (maxValue - 1 - minValue)) + minValue);
+            }
         }
         return list;
     }
