@@ -6,6 +6,7 @@ package homework.hw_12_collections.task_06;
 Удалить нужно все элементы
  */
 
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;

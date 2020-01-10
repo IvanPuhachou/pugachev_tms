@@ -2,6 +2,7 @@ package homework.hw_12_collections.task_06;
 
 import java.util.List;
 
+
 public class Task_06 {
 
     public static <T> Long removeTimeFromTheBeginning(List<T> list) {
