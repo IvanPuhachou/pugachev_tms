@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Task_05 {
 
-    public static <T>Long removeTimeFromTheMiddle(List<T> list) {
+    public static <T> Long removeTimeFromTheMiddle(List<T> list) {
         long startTime = System.currentTimeMillis();
 
         while (list.size() > 0) {
