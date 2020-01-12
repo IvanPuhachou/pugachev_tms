@@ -3,6 +3,7 @@ package homework.hw_13.task_05;
 Создать метод, который бы принимал на вход List<User> и предикат, по которому все юзеры,
 у которых имена начинаются с A,P,E удалялись бы из этого листа
  */
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;

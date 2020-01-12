@@ -6,10 +6,10 @@ import java.util.function.Predicate;
 
 public class RemoveStringWithPredicate {
 
-    public static void removeStringFromCollection (List<String> names, Predicate<String> predicate){
+    public static void removeStringFromCollection(List<String> names, Predicate<String> predicate) {
         Iterator<String> iterator = names.iterator();
-        while (iterator.hasNext()){
-            if(predicate.test(iterator.next())){
+        while (iterator.hasNext()) {
+            if (predicate.test(iterator.next())) {
                 iterator.remove();
             }
         }
