@@ -1,5 +1,7 @@
 package homework.hw_14.task_06;
 
+//Есть коллекция телефонов, нужно убрать все повторяющиеся
+
 import homework.hw_14.task_03.Phone;
 
 import java.util.ArrayList;
