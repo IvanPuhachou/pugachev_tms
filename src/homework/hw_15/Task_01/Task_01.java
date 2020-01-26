@@ -14,6 +14,7 @@ public class Task_01 {
     public static void main(String[] args) {
 
         Task_01.greetingSentence();
+
     }
 
     public static void greetingSentence() {
